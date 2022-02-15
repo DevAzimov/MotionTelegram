@@ -3,7 +3,7 @@
     xmlns:motion="http://schemas.android.com/apk/res-auto">
 
     <Transition
-        motion:constraintSetEnd="@+id/collapseProfile"
+        motion:constraintSetEnd="@+id/finishCollapse"
         motion:constraintSetStart="@id/init"
         motion:duration="600">
         <KeyFrameSet></KeyFrameSet>
@@ -34,7 +34,7 @@
 
     <Transition
         motion:autoTransition="animateToEnd"
-        motion:constraintSetEnd="@+id/middleCollapse"
+        motion:constraintSetEnd="@+id/finishCollapse"
         motion:constraintSetStart="@+id/collapseProfile"
         motion:duration="300">
         <KeyFrameSet>
